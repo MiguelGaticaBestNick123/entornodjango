@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from .forms import PersonaForm
+from django.shortcuts import render, redirect
+
 
 def registrar_persona(request):
     if request.method == 'POST':
