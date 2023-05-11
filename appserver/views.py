@@ -12,4 +12,4 @@ def registrar_persona(request):
     else:
         form = PersonaForm()
 
-    return render(request, 'registro.html', {'form': form})
+    return render(request, 'registro.html', {'forms': form})
